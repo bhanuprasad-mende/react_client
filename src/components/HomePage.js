@@ -4,6 +4,7 @@ import Paper from '@material-ui/core/Paper';
 import Typography from '@material-ui/core/Typography';
 import { userActions } from '../_actions';
 import { connect } from 'react-redux';
+import OnlineUsers from './OnlineUsers'
 
 class HomePage extends React.Component {
   componentDidMount() {
@@ -37,6 +38,7 @@ class HomePage extends React.Component {
               )}
             </ul>
           }
+          <OnlineUsers></OnlineUsers>
         </Grid>
       </Grid>
     </React.Fragment>);

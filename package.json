@@ -5,6 +5,7 @@
   "dependencies": {
     "@material-ui/core": "^4.4.1",
     "@material-ui/icons": "^4.4.1",
+    "action-cable-react-jwt": "^0.0.5",
     "babel-core": "^6.26.3",
     "babel-loader": "^8.0.6",
     "babel-plugin-transform-class-properties": "^6.24.1",

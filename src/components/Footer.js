@@ -7,7 +7,7 @@ export default () => (
   <div className="footer-container-box">
 
     <Typography variant="headline" gutterBottom>
-      Effone
+      Fluence
       </Typography>
 
 
