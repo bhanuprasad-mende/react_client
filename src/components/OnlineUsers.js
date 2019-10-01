@@ -14,7 +14,7 @@ class OnlineUsers extends React.Component {
 
     let App = {}
     App.cable = ActionCable.createConsumer(SOCKET_URL, yourToken)
-    const subscription = App.cable.subscriptions.create({channel: 'OnlineUsersChannel'}, {
+    App.messaging = App.cable.subscriptions.create({channel: 'OnlineUsersChannel'}, {
       connected () {},
       disconnected () {},
       received (data) { 

@@ -11,7 +11,7 @@ class HomePage extends React.Component {
     this.props.dispatch(userActions.getAll());
   }
   render() {
-    const { user, users } = this.props;
+    const { users } = this.props;
 
     return (<React.Fragment>
 
